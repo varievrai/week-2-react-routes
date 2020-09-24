@@ -7,10 +7,10 @@ const DashboardProfile = () => {
   return (
     <div>
       <Head title="Hello" />
-      <div id="title">Profile</div>
-      <div id="username">{username}</div>
       <div><Link to="/dashboard">Go To Root</Link></div>
       <div><Link to="/dashboard/main">Go To Main</Link></div>
+      <div id="title">Profile</div>
+      <div id="username">{username}</div>
     </div>
   )
 }
